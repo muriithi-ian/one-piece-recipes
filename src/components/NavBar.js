@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 import styled from "styled-components";
 
 const Nav = styled.nav`
-	position: sticky;
+	position: fixed;
 	top: 0;
 	width: 70%;
 	margin: auto;

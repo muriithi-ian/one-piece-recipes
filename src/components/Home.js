@@ -6,6 +6,7 @@ const Div = styled.div`
 	max-width: 820px;
 	display: flex;
 	flex-wrap: wrap;
+	gap: 20px;
 `;
 
 function Home() {
