@@ -4,6 +4,7 @@ import RecipeCard from "./RecipeCard";
 
 const Div = styled.div`
 	max-width: 820px;
+	margin-top: 50px;
 	display: flex;
 	flex-wrap: wrap;
 	gap: 20px;
@@ -12,7 +13,6 @@ const Div = styled.div`
 function Home() {
 	return (
 		<Div>
-			<RecipeCard />
 			<RecipeCard />
 			<RecipeCard />
 			<RecipeCard />
