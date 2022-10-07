@@ -1,8 +1,15 @@
 import NavBar from "./components/NavBar";
-import { Routes, Route } from "react-router-dom";
+import {
+	BrowserRouter as Router,
+	Routes,
+	Route,
+	useParams,
+} from "react-router-dom";
 import Home from "./components/Home";
 
 import styled from "styled-components";
+import { useEffect, useState } from "react";
+import axios from "axios";
 
 const Div = styled.div`
 	position: relative;
@@ -30,15 +37,23 @@ const Div = styled.div`
 `;
 
 function App() {
+	const [recipes, setRecipes] = useState([]);
+
+	useEffect(() => {
+		axios.get("http://localhost:3004/recipes").then((res) => {
+			setRecipes(res.data);
+		});
+	}, []);
+
+	const params = useParams();
 	return (
 		<Div className="app">
-			<NavBar />
-			<Home />
-			<Routes>
-				{/* <Route exact path="/">
-					<Home />
-				</Route> */}
-			</Routes>
+			<Router>
+				<NavBar />
+				<Routes>
+					<Route exact path="/" element={<Home recipes={recipes} />} />
+				</Routes>
+			</Router>
 		</Div>
 	);
 }

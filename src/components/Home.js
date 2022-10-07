@@ -10,21 +10,12 @@ const Div = styled.div`
 	gap: 20px;
 `;
 
-function Home() {
+function Home({ recipes }) {
 	return (
 		<Div>
-			<RecipeCard />
-			<RecipeCard />
-			<RecipeCard />
-			<RecipeCard />
-			<RecipeCard />
-			<RecipeCard />
-			<RecipeCard />
-			<RecipeCard />
-			<RecipeCard />
-			<RecipeCard />
-			<RecipeCard />
-			<RecipeCard />
+			{recipes.map((recipe) => (
+				<RecipeCard key={recipe.id} recipe={recipe} />
+			))}
 		</Div>
 	);
 }

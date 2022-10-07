@@ -14,20 +14,26 @@ const Card = styled.div`
 	img {
 		width: 100%;
 		height: auto;
+		max-height: 200px;
+	}
+	:hover {
+		img {
+			transform: scale(1.1);
+			transition: all 0.3s ease-in-out;
+		}
+		transform: scale(1.05);
+		transition: all 0.3s ease-in-out;
 	}
 `;
 
-function RecipeCard() {
+function RecipeCard({ recipe }) {
 	return (
 		<Card>
-			<h3>Recipe Title</h3>
-			<img
-				src="https://thumbs.dreamstime.com/b/heart-shape-various-vegetables-fruits-healthy-food-concept-isolated-white-background-140287808.jpg"
-				alt=""
-			/>
-			<p>Recipe Description</p>
-			<p>time</p>
-			<p>serves</p>
+			<h3>{recipe.title}</h3>
+			<img src={recipe.image} alt={recipe.title} />
+			<p>{recipe.description}</p>
+			<p>{recipe.time}</p>
+			<p>{` serves: ${recipe.serves}`}</p>
 		</Card>
 	);
 }

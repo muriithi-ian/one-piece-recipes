@@ -81,13 +81,13 @@ const Nav = styled.nav`
 
 function NavBar() {
 	return (
-		<Nav class="dark">
+		<Nav className="dark">
 			<li>
 				<NavLink to="/">Home</NavLink>
 				<NavLink to="/">Add Recipe</NavLink>
 			</li>
 
-			<input class="nav-search" type="text" placeholder="Search..." />
+			<input className="nav-search" type="text" placeholder="Search..." />
 		</Nav>
 	);
 }
