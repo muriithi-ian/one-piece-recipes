@@ -1,182 +1,32 @@
-[
-    {
-        "name": "test",
-        "time": "15 minutes",
-        "serves": 1,
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam qui quis illum inventore repellendus, molestias quaerat animi tenetur sapiente culpa?",
-        "steps": [
-            {
-                "step": 1,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
-            },
-            {
-                "step": 2,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
-            },
-            {
-                "step": 3,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
-            }
-        ]
-    },
-    {
-        "name": "test",
-        "time": "15 minutes",
-        "serves": 1,
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam qui quis illum inventore repellendus, molestias quaerat animi tenetur sapiente culpa?",
-        "steps": [
-            {
-                "step": 1,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
-            },
-            {
-                "step": 2,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
-            },
-            {
-                "step": 3,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
-            }
-        ]
-    },
-    {
-        "name": "test",
-        "time": "15 minutes",
-        "serves": 1,
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam qui quis illum inventore repellendus, molestias quaerat animi tenetur sapiente culpa?",
-        "steps": [
-            {
-                "step": 1,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
-            },
-            {
-                "step": 2,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
-            },
-            {
-                "step": 3,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
-            }
-        ]
-    },
-    {
-        "name": "test",
-        "time": "15 minutes",
-        "serves": 1,
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam qui quis illum inventore repellendus, molestias quaerat animi tenetur sapiente culpa?",
-        "steps": [
-            {
-                "step": 1,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
-            },
-            {
-                "step": 2,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
-            },
-            {
-                "step": 3,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
-            }
-        ]
-    },
-    {
-        "name": "test",
-        "time": "15 minutes",
-        "serves": 1,
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam qui quis illum inventore repellendus, molestias quaerat animi tenetur sapiente culpa?",
-        "steps": [
-            {
-                "step": 1,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
-            },
-            {
-                "step": 2,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
-            },
-            {
-                "step": 3,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
-            }
-        ]
-    },
-    {
-        "name": "test",
-        "time": "15 minutes",
-        "serves": 1,
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam qui quis illum inventore repellendus, molestias quaerat animi tenetur sapiente culpa?",
-        "steps": [
-            {
-                "step": 1,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
-            },
-            {
-                "step": 2,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
-            },
-            {
-                "step": 3,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
-            }
-        ]
-    },
-    {
-        "name": "test",
-        "time": "15 minutes",
-        "serves": 1,
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam qui quis illum inventore repellendus, molestias quaerat animi tenetur sapiente culpa?",
-        "steps": [
-            {
-                "step": 1,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
-            },
-            {
-                "step": 2,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
-            },
-            {
-                "step": 3,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
-            }
-        ]
-    },
-    {
-        "name": "test",
-        "time": "15 minutes",
-        "serves": 1,
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam qui quis illum inventore repellendus, molestias quaerat animi tenetur sapiente culpa?",
-        "steps": [
-            {
-                "step": 1,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
-            },
-            {
-                "step": 2,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
-            },
-            {
-                "step": 3,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
-            }
-        ]
-    },
-    {
-        "name": "test",
-        "time": "15 minutes",
-        "serves": 1,
-        "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam qui quis illum inventore repellendus, molestias quaerat animi tenetur sapiente culpa?",
-        "steps": [
-            {
-                "step": 1,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
-            },
-            {
-                "step": 2,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
-            },
-            {
-                "step": 3,
-                "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod."
-            }
-        ]
-    }
-]
+{
+    "recipes": [
+        {
+            "id": 1,
+            "name": "tomato",
+            "time": "1 minute",
+            "serves": 1,
+            "image": "https://i5.walmartimages.ca/images/Enlarge/008/475/6000190008475.jpg",
+            "description": "a glossy red, or occasionally yellow, pulpy edible fruit that is eaten as a vegetable or in salad.",
+            "steps": [
+                "Cut the tomato in half",
+                "Scoop out the seeds",
+                "Cut into slices",
+                "Eat"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "potato",
+            "time": "10 minute",
+            "serves": 1,
+            "image": "https://static.vecteezy.com/system/resources/previews/002/390/576/non_2x/golden-potato-on-a-white-background-photo.jpg",
+            "description": "A starchy, tuberous crop from the perennial nightshade Solanum tuberosum.",
+            "steps": [
+                "Peel the potato",
+                "Cut into slices",
+                "Boil for 10 minutes",
+                "Eat"
+            ]
+        }
+    ]
+}
