@@ -12,9 +12,9 @@ const Div = styled.div`
 	flex-direction: column;
 
 	img {
-		height: auto;
 		width: auto;
 		max-height: 300px;
+		object-fit: scale-down;
 	}
 
 	p {
