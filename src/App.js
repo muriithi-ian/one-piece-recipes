@@ -38,6 +38,12 @@ const Div = styled.div`
 
 function App() {
 	const [recipes, setRecipes] = useState([]);
+	const [search, setSearch] = useState("");
+
+	const filteredRecipes = recipes.filter((recipe) => {
+		return recipe.title.toLowerCase().includes(search.toLowerCase());
+	});
+	console.log(search);
 
 	useEffect(() => {
 		axios.get("http://localhost:3004/recipes").then((res) => {
@@ -45,13 +51,18 @@ function App() {
 		});
 	}, []);
 
-	const params = useParams();
 	return (
 		<Div className="app">
 			<Router>
-				<NavBar />
+				<NavBar setSearch={setSearch} search={search} />
 				<Routes>
-					<Route exact path="/" element={<Home recipes={recipes} />} />
+					<Route
+						exact
+						path="/"
+						element={
+							<Home recipes={search.length >= 1 ? filteredRecipes : recipes} />
+						}
+					/>
 				</Routes>
 			</Router>
 		</Div>

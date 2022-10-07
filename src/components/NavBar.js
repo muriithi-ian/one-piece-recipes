@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import styled from "styled-components";
+import Search from "./Search";
 
 const Nav = styled.nav`
 	position: fixed;
@@ -79,15 +80,15 @@ const Nav = styled.nav`
 	}
 `;
 
-function NavBar() {
+function NavBar({ search, setSearch }) {
 	return (
 		<Nav className="dark">
 			<li>
-				<NavLink to="/">Home</NavLink>
+				<NavLink to="/">One Piece Recipe</NavLink>
 				<NavLink to="/">Add Recipe</NavLink>
 			</li>
 
-			<input className="nav-search" type="text" placeholder="Search..." />
+			<Search setSearch={setSearch} search={search} />
 		</Nav>
 	);
 }

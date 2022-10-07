@@ -12,7 +12,7 @@ const Card = styled.div`
 	transition: all 0.3s ease-in-out;
 
 	img {
-		width: 100%;
+		width: auto;
 		height: auto;
 		max-height: 200px;
 	}
