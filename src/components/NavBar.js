@@ -85,7 +85,7 @@ function NavBar({ search, setSearch }) {
 		<Nav className="dark">
 			<li>
 				<NavLink to="/">One Piece Recipe</NavLink>
-				<NavLink to="/">Add Recipe</NavLink>
+				<NavLink to="/add">Add Recipe</NavLink>
 			</li>
 
 			<Search setSearch={setSearch} search={search} />

@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import styled from "styled-components";
 
 const Card = styled.div`
@@ -27,8 +28,13 @@ const Card = styled.div`
 `;
 
 function RecipeCard({ recipe }) {
+	const navigate = useNavigate();
 	return (
-		<Card>
+		<Card
+			onClick={(e) => {
+				navigate(`${recipe.id}`);
+			}}
+		>
 			<h3>{recipe.title}</h3>
 			<img src={recipe.image} alt={recipe.title} />
 			<p>{recipe.description}</p>

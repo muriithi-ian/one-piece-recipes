@@ -1,15 +1,49 @@
-import React from "react";
+import axios from "axios";
+import React, { useEffect } from "react";
+import { useParams } from "react-router-dom";
 import styled from "styled-components";
 
-styled(Recipe)`
+const Div = styled.div`
 	max-width: 820px;
+	min-height: 50vh;
+	background: #fff;
 	margin-top: 50px;
 	display: flex;
 	flex-direction: column;
+
+	img {
+		height: 300px;
+		width: auto;
+	}
+
+	p {
+		padding: 0 20px;
+	}
 `;
 
 function Recipe() {
-	return <div>Recipe</div>;
+	const [recipe, setRecipe] = React.useState({});
+	const params = useParams();
+
+	useEffect(() => {
+		axios.get(`http://localhost:3004/recipes/${params.id}`).then((res) => {
+			setRecipe(res.data);
+		});
+	}, []);
+
+	return (
+		<Div>
+			<h1>{recipe.title}</h1>
+			<img src={recipe.image} alt={recipe.title} />
+			<p>{recipe.description}</p>
+			<h2>Instructions</h2>
+			<ol>
+				{recipe.steps?.map((step, index) => {
+					return <li key={index}>{step}</li>;
+				})}
+			</ol>
+		</Div>
+	);
 }
 
 export default Recipe;

@@ -10,6 +10,8 @@ import Home from "./components/Home";
 import styled from "styled-components";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import Recipe from "./components/Recipe";
+import Add from "./components/Add";
 
 const Div = styled.div`
 	position: relative;
@@ -51,6 +53,8 @@ function App() {
 		});
 	}, []);
 
+	const params = useParams();
+
 	return (
 		<Div className="app">
 			<Router>
@@ -63,6 +67,8 @@ function App() {
 							<Home recipes={search.length >= 1 ? filteredRecipes : recipes} />
 						}
 					/>
+					<Route path="/:id" element={<Recipe />} />
+					<Route path="/add" element={<Add />} />
 				</Routes>
 			</Router>
 		</Div>
