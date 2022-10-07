@@ -56,8 +56,10 @@ function Add() {
 					<label htmlFor="title">Title:</label> &nbsp;
 					<input type="text" name="title" id="title" />
 				</span>
-				<label htmlFor="description">Description</label>
-				<textarea type="text" name="description" id="description" />
+				<span>
+					<label htmlFor="description">Description:</label> &nbsp;
+					<textarea type="text" name="description" id="description" />
+				</span>
 				<span>
 					<label htmlFor="image">Image:</label> &nbsp;
 					<input type="text" name="image" id="image" />
