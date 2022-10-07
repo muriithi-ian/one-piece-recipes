@@ -1,4 +1,5 @@
 import NavBar from "./components/NavBar";
+import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import {
 	BrowserRouter as Router,
 	Routes,
