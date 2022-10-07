@@ -4,7 +4,7 @@ import { useParams } from "react-router-dom";
 import styled from "styled-components";
 
 const Div = styled.div`
-	max-width: 820px;
+	max-width: 720px;
 	min-height: 50vh;
 	background: #fff;
 	margin-top: 50px;
