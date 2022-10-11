@@ -37,6 +37,7 @@ function Recipe() {
 			<h1>{recipe.title}</h1>
 			<img src={recipe.image} alt={recipe.title} />
 			<p>{recipe.description}</p>
+			<p>serves:{recipe.serves}</p>
 			<h2>Instructions</h2>
 			<ol>
 				{recipe.steps?.map((step, index) => {
