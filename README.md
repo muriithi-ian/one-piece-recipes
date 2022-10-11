@@ -14,6 +14,6 @@ This is a collection of single-ingredient recipes for you to enjoy or rather hum
 
 ## Hosting
 
-A live version of this project is hosted on [https://one-piece-recipes.netlify.app/](https://one-piece-recipes.netlify.app/)
+A live version of this project is hosted on [https://recipes-muriithi-ian.vercel.app/](https://recipes-muriithi-ian.vercel.app/)
 
 Have fun!
