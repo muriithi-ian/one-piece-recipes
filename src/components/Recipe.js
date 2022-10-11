@@ -30,7 +30,7 @@ function Recipe() {
 		axios.get(`http://localhost:3004/recipes/${params.id}`).then((res) => {
 			setRecipe(res.data);
 		});
-	}, []);
+	}, [params.id]);
 
 	return (
 		<Div>

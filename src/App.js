@@ -1,11 +1,6 @@
 import NavBar from "./components/NavBar";
-import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
-import {
-	BrowserRouter as Router,
-	Routes,
-	Route,
-	useParams,
-} from "react-router-dom";
+// import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./components/Home";
 
 import styled from "styled-components";
@@ -53,8 +48,6 @@ function App() {
 			setRecipes(res.data);
 		});
 	}, []);
-
-	const params = useParams();
 
 	return (
 		<Div className="app">
